@@ -1,0 +1,6 @@
+[Unit]
+Description=Servicio de monitoreo de red - TP3
+
+[Service]
+Type=oneshot
+ExecStart=/home/ayelenjara/tp3-jara-9232/codigo/diagnostico_red.sh
