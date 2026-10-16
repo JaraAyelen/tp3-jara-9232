@@ -1,0 +1,300 @@
+Sep  9 10:57:00 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.portal.IBus'
+Sep  9 10:57:00 ayelen-jara-9232 at-spi-bus-launcher[1869]: dbus-daemon[1869]: Activating service name='org.a11y.atspi.Registry' requested by ':1.4' (uid=1000 pid=2312 comm="/usr/libexec/ibus-x11 --kill-daemon " label="unconfined")
+Sep  9 10:57:00 ayelen-jara-9232 at-spi-bus-launcher[1869]: dbus-daemon[1869]: Successfully activated service 'org.a11y.atspi.Registry'
+Sep  9 10:57:00 ayelen-jara-9232 at-spi-bus-launcher[2327]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Sep  9 10:57:00 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=11 ttl=42 time=0.116 ms
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:01 ayelen-jara-9232 systemd[1239]: Starting sandboxed app permission store...
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Sep  9 10:57:01 ayelen-jara-9232 systemd[1239]: Started sandboxed app permission store.
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.36' (uid=1000 pid=2336 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Sep  9 10:57:01 ayelen-jara-9232 systemd[1239]: Starting Evolution source registry...
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.gnome.OnlineAccounts' requested by ':1.37' (uid=1000 pid=2342 comm="/usr/libexec/evolution-source-registry " label="unconfined")
+Sep  9 10:57:01 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=12 ttl=42 time=0.098 ms
+Sep  9 10:57:01 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Sep  9 10:57:01 ayelen-jara-9232 systemd[1239]: Started Evolution source registry.
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.36' (uid=1000 pid=2336 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Sep  9 10:57:02 ayelen-jara-9232 systemd[1239]: Starting Evolution calendar service...
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Sep  9 10:57:02 ayelen-jara-9232 goa-daemon[2349]: goa-daemon version 3.36.1 starting
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.gnome.Identity' requested by ':1.39' (uid=1000 pid=2349 comm="/usr/libexec/goa-daemon " label="unconfined")
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Sep  9 10:57:02 ayelen-jara-9232 systemd[1239]: Started Evolution calendar service.
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='ca.desrt.dconf' requested by ':1.38' (uid=1000 pid=2352 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.38' (uid=1000 pid=2352 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Sep  9 10:57:02 ayelen-jara-9232 systemd[1239]: Starting Evolution address book service...
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.OnlineAccounts'
+Sep  9 10:57:02 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=13 ttl=42 time=0.121 ms
+Sep  9 10:57:02 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'ca.desrt.dconf'
+Sep  9 10:57:03 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.Identity'
+Sep  9 10:57:03 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Sep  9 10:57:03 ayelen-jara-9232 systemd[1239]: Started Evolution address book service.
+Sep  9 10:57:03 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.48' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:03 ayelen-jara-9232 systemd[1]: Starting Daemon for power management...
+Sep  9 10:57:03 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.UPower'
+Sep  9 10:57:03 ayelen-jara-9232 systemd[1]: Started Daemon for power management.
+Sep  9 10:57:03 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.48' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:03 ayelen-jara-9232 systemd[1]: Starting Location Lookup Service...
+Sep  9 10:57:03 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=14 ttl=42 time=0.098 ms
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1]: Started Location Lookup Service.
+Sep  9 10:57:04 ayelen-jara-9232 gnome-shell[2017]: Telepathy is not available, chat integration will be disabled.
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Starting Virtual filesystem service - disk device monitor...
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Started Virtual filesystem service - disk device monitor.
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Started Virtual filesystem service - Apple File Conduit monitor.
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Starting Virtual filesystem service - digital camera monitor...
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1239]: Started Virtual filesystem service - digital camera monitor.
+Sep  9 10:57:04 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=15 ttl=42 time=1.295 ms
+Sep  9 10:57:04 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.48' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:04 ayelen-jara-9232 systemd[1]: Starting PackageKit Daemon...
+Sep  9 10:57:05 ayelen-jara-9232 PackageKit: daemon start
+Sep  9 10:57:05 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Started PackageKit Daemon.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Received SIGRTMIN+21 from PID 311 (plymouthd).
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: plymouth-start.service: Succeeded.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: plymouth-quit-wait.service: Succeeded.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Finished Hold until boot process finishes up.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Reached target Multi-User System.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Reached target Graphical Interface.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Starting Set console scheme...
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Finished Set console scheme.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Created slice system-getty.slice.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Sep  9 10:57:05 ayelen-jara-9232 systemd[1]: Startup finished in 3.879s (kernel) + 48.249s (userspace) = 52.129s.
+Sep  9 10:57:05 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.freedesktop.FileManager1' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:05 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=16 ttl=42 time=0.099 ms
+Sep  9 10:57:06 ayelen-jara-9232 systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep  9 10:57:06 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.gnome.Shell.Notifications' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:06 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=17 ttl=42 time=0.099 ms
+Sep  9 10:57:07 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.Shell.Notifications'
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Started GNOME Shell on X11.
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Reached target GNOME Shell on X11.
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Reached target GNOME Session is initialized.
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Reached target GNOME session X11 services.
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Reached target GNOME X11 Session.
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Reached target GNOME Session (session: ubuntu).
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting Signal initialization done to GNOME Session Manager...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Accessibility settings...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Color management...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Date & Time handling...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Maintenance of expirable data...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Keyboard handling...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Media keys handling...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Power management handling...
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME Printer notifications...
+Sep  9 10:57:07 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=18 ttl=42 time=0.098 ms
+Sep  9 10:57:07 ayelen-jara-9232 systemd[1239]: Starting GNOME RFKill handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME Freedesktop screensaver handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME Sharing handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME Smartcard handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME Sound sample caching handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME USB protection handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME Wacom handling...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME WWan management...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Starting GNOME XSettings...
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: gnome-session-signal-init.service: Succeeded.
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Finished Signal initialization done to GNOME Session Manager.
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Started GNOME Accessibility settings.
+Sep  9 10:57:08 ayelen-jara-9232 systemd[1239]: Reached target GNOME Accessibility settings.
+Sep  9 10:57:08 ayelen-jara-9232 vmware-user.desktop[2540]: vmware-user: could not open /proc/fs/vmblock/dev
+Sep  9 10:57:08 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=19 ttl=42 time=0.147 ms
+Sep  9 10:57:09 ayelen-jara-9232 gnome-session-binary[1958]: Entering running state
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Maintenance of expirable data.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Maintenance of expirable data.
+Sep  9 10:57:09 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.59' (uid=1000 pid=2482 comm="/usr/libexec/gsd-rfkill " label="unconfined")
+Sep  9 10:57:09 ayelen-jara-9232 vmware-user.desktop[2540]: Error: /usr/bin/vmtoolsd must be run inside a virtual machine on a VMware hypervisor product.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1]: Starting Hostname Service...
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Freedesktop screensaver handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Freedesktop screensaver handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Date & Time handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Date & Time handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Sharing handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Sharing handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Color management.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Color management.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Wacom handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Wacom handling.
+Sep  9 10:57:09 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.61' (uid=1000 pid=2471 comm="/usr/libexec/gsd-keyboard " label="unconfined")
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME USB protection handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME USB protection handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Smartcard handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Smartcard handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1]: Starting Locale Service...
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Keyboard handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Keyboard handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME WWan management.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME WWan management.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Started GNOME Power management handling.
+Sep  9 10:57:09 ayelen-jara-9232 systemd[1239]: Reached target GNOME Power management handling.
+Sep  9 10:57:09 ayelen-jara-9232 pulseaudio[1407]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Sep  9 10:57:09 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=20 ttl=42 time=0.094 ms
+Sep  9 10:57:10 ayelen-jara-9232 systemd[1239]: Started GNOME Sound sample caching handling.
+Sep  9 10:57:10 ayelen-jara-9232 systemd[1239]: Started GNOME Printer notifications.
+Sep  9 10:57:10 ayelen-jara-9232 systemd[1239]: Reached target GNOME Printer notifications.
+Sep  9 10:57:10 ayelen-jara-9232 systemd[1239]: Reached target GNOME Sound sample caching handling.
+Sep  9 10:57:11 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=21 ttl=42 time=0.133 ms
+Sep  9 10:57:11 ayelen-jara-9232 NetworkManager[719]: <info>  [1788962231.2139] agent-manager: agent[56fb7c811b6c0e33,:1.48/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep  9 10:57:11 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1]: Started Hostname Service.
+Sep  9 10:57:11 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.locale1'
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1]: Started Locale Service.
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1239]: Started GNOME Media keys handling.
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1239]: Reached target GNOME Media keys handling.
+Sep  9 10:57:11 ayelen-jara-9232 kernel: [   58.217106] rfkill: input handler disabled
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1239]: Started GNOME RFKill handling.
+Sep  9 10:57:11 ayelen-jara-9232 systemd[1239]: Reached target GNOME RFKill handling.
+Sep  9 10:57:11 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.FileManager1'
+Sep  9 10:57:11 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=22 ttl=42 time=0.092 ms
+Sep  9 10:57:12 ayelen-jara-9232 vboxclient.desktop[2631]: VBoxClient: error: unrecognized option '--vmsvga-session'
+Sep  9 10:57:12 ayelen-jara-9232 vboxclient.desktop[2631]: VBoxClient: info: Try 'VBoxClient --help' for more information
+Sep  9 10:57:12 ayelen-jara-9232 gnome-shell[2017]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  9 10:57:12 ayelen-jara-9232 gsd-media-keys[2474]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep  9 10:57:12 ayelen-jara-9232 gsd-media-keys[2474]: Failed to grab accelerator for keybinding settings:playback-random
+Sep  9 10:57:12 ayelen-jara-9232 gsd-media-keys[2474]: Failed to grab accelerator for keybinding settings:hibernate
+Sep  9 10:57:12 ayelen-jara-9232 gsd-media-keys[2474]: Failed to grab accelerator for keybinding settings:rfkill
+Sep  9 10:57:12 ayelen-jara-9232 gsd-color[2466]: failed to get edid: unable to get EDID for output
+Sep  9 10:57:13 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=23 ttl=42 time=0.087 ms
+Sep  9 10:57:13 ayelen-jara-9232 colord[813]: failed to get session [pid 2466]: No hay datos disponibles
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Started GNOME XSettings.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Reached target GNOME XSettings.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Reached target GNOME Session.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Reached target GNOME X11 Session (session: ubuntu).
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Reached target Current graphical user session.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Condition check resulted in GNOME Initial Setup being skipped.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Condition check resulted in GNOME Welcome Tour being skipped.
+Sep  9 10:57:13 ayelen-jara-9232 systemd[1239]: Starting Tracker file system data miner...
+Sep  9 10:57:13 ayelen-jara-9232 tracker-miner-f[2648]: Set scheduler policy to SCHED_IDLE
+Sep  9 10:57:13 ayelen-jara-9232 tracker-miner-f[2648]: Setting priority nice level to 19
+Sep  9 10:57:14 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=24 ttl=42 time=0.098 ms
+Sep  9 10:57:15 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=25 ttl=42 time=0.099 ms
+Sep  9 10:57:15 ayelen-jara-9232 gsd-color[2466]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep  9 10:57:15 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.73' (uid=1000 pid=2648 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep  9 10:57:15 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.74' (uid=1000 pid=2639 comm="/snap/bin/snap-store.ubuntu-software --gapplicatio" label="unconfined")
+Sep  9 10:57:16 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=26 ttl=42 time=0.116 ms
+Sep  9 10:57:16 ayelen-jara-9232 systemd[1239]: Started Tracker file system data miner.
+Sep  9 10:57:17 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=27 ttl=42 time=0.117 ms
+Sep  9 10:57:17 ayelen-jara-9232 systemd[1239]: Starting Tracker metadata database store and lookup manager...
+Sep  9 10:57:17 ayelen-jara-9232 systemd[1239]: Starting flatpak document portal service...
+Sep  9 10:57:17 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.portal.Documents'
+Sep  9 10:57:17 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.Tracker1'
+Sep  9 10:57:17 ayelen-jara-9232 systemd[1239]: Started flatpak document portal service.
+Sep  9 10:57:17 ayelen-jara-9232 systemd[1239]: Started Tracker metadata database store and lookup manager.
+Sep  9 10:57:17 ayelen-jara-9232 systemd[1239]: Started snap.snap-store.ubuntu-software-9c687c5c-31af-4822-8570-a8d0782eeb64.scope.
+Sep  9 10:57:18 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=28 ttl=42 time=0.159 ms
+Sep  9 10:57:18 ayelen-jara-9232 systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_QSQoqi.mount: Succeeded.
+Sep  9 10:57:18 ayelen-jara-9232 systemd[1239]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_QSQoqi.mount: Succeeded.
+Sep  9 10:57:18 ayelen-jara-9232 systemd[1]: systemd-timedated.service: Succeeded.
+Sep  9 10:57:19 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=29 ttl=42 time=0.101 ms
+Sep  9 10:57:20 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=30 ttl=42 time=0.098 ms
+Sep  9 10:57:21 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=31 ttl=42 time=0.099 ms
+Sep  9 10:57:22 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=32 ttl=42 time=0.341 ms
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep  9 10:57:23 ayelen-jara-9232 gnome-shell[2017]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep  9 10:57:23 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=33 ttl=42 time=0.119 ms
+Sep  9 10:57:24 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=34 ttl=42 time=0.202 ms
+Sep  9 10:57:24 ayelen-jara-9232 NetworkManager[719]: <warn>  [1788962244.4225] dhcp6 (enp0s3): request timed out
+Sep  9 10:57:24 ayelen-jara-9232 NetworkManager[719]: <info>  [1788962244.4226] dhcp6 (enp0s3): state changed unknown -> timeout
+Sep  9 10:57:24 ayelen-jara-9232 NetworkManager[719]: <info>  [1788962244.4227] dhcp6 (enp0s3): canceled DHCP transaction
+Sep  9 10:57:24 ayelen-jara-9232 NetworkManager[719]: <info>  [1788962244.4227] dhcp6 (enp0s3): state changed timeout -> done
+Sep  9 10:57:25 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=35 ttl=42 time=0.321 ms
+Sep  9 10:57:26 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=36 ttl=42 time=0.146 ms
+Sep  9 10:57:27 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=37 ttl=42 time=0.100 ms
+Sep  9 10:57:27 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.gnome.Nautilus' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:27 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating service name='org.freedesktop.FileManager1' requested by ':1.26' (uid=1000 pid=2017 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep  9 10:57:27 ayelen-jara-9232 gnome-shell[2017]: GNOME Shell started at Wed Sep 09 2026 10:57:05 GMT-0300 (-03)
+Sep  9 10:57:27 ayelen-jara-9232 gnome-shell[2017]: Registering session with GDM
+Sep  9 10:57:28 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=38 ttl=42 time=4.466 ms
+Sep  9 10:57:28 ayelen-jara-9232 snap-store[2639]: GTK+ module /snap/snap-store/1216/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.#012GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Sep  9 10:57:28 ayelen-jara-9232 snap-store[2639]: GTK+ module /snap/snap-store/1216/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.#012GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Sep  9 10:57:28 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.77' (uid=1000 pid=2639 comm="/snap/snap-store/1216/usr/bin/snap-store --gapplic" label="snap.snap-store.ubuntu-software (enforce)")
+Sep  9 10:57:28 ayelen-jara-9232 systemd[1239]: Starting Portal service...
+Sep  9 10:57:28 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.80' (uid=1000 pid=2766 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Sep  9 10:57:28 ayelen-jara-9232 systemd[1239]: Starting Portal service (GTK+/GNOME implementation)...
+Sep  9 10:57:29 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=39 ttl=42 time=0.113 ms
+Sep  9 10:57:29 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.gnome.Nautilus'
+Sep  9 10:57:30 ayelen-jara-9232 org.gnome.Nautilus[2752]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Sep  9 10:57:30 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=40 ttl=42 time=0.112 ms
+Sep  9 10:57:30 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.FileManager1'
+Sep  9 10:57:31 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Sep  9 10:57:31 ayelen-jara-9232 systemd[1239]: Started Portal service (GTK+/GNOME implementation).
+Sep  9 10:57:31 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=41 ttl=42 time=0.116 ms
+Sep  9 10:57:31 ayelen-jara-9232 dbus-daemon[1478]: [session uid=1000 pid=1478] Successfully activated service 'org.freedesktop.portal.Desktop'
+Sep  9 10:57:31 ayelen-jara-9232 systemd[1239]: Started Portal service.
+Sep  9 10:57:32 ayelen-jara-9232 dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.75' (uid=1000 pid=2639 comm="/snap/snap-store/1216/usr/bin/snap-store --gapplic" label="snap.snap-store.ubuntu-software (enforce)")
+Sep  9 10:57:32 ayelen-jara-9232 systemd[1]: Starting Firmware update daemon...
+Sep  9 10:57:32 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=42 ttl=42 time=0.095 ms
+Sep  9 10:57:33 ayelen-jara-9232 dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Sep  9 10:57:33 ayelen-jara-9232 systemd[1]: Started Firmware update daemon.
+Sep  9 10:57:33 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=43 ttl=42 time=0.093 ms
+Sep  9 10:57:33 ayelen-jara-9232 snap-store[2639]: plugin fwupd took 1.3 seconds to do setup
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.158616] audit: type=1107 audit(1788962253.534:50): pid=716 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.3" pid=2639 label="snap.snap-store.ubuntu-software" peer_pid=737 peer_label="unconfined"
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.158616]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.164867] audit: type=1107 audit(1788962253.538:51): pid=716 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2639 label="snap.snap-store.ubuntu-software" peer_pid=737 peer_label="unconfined"
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.164867]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.188456] audit: type=1107 audit(1788962253.562:52): pid=716 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.3" pid=2639 label="snap.snap-store.ubuntu-software" peer_pid=737 peer_label="unconfined"
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.188456]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.190482] audit: type=1107 audit(1788962253.562:53): pid=716 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2639 label="snap.snap-store.ubuntu-software" peer_pid=737 peer_label="unconfined"
+Sep  9 10:57:33 ayelen-jara-9232 kernel: [   80.190482]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Sep  9 10:57:33 ayelen-jara-9232 snap-store[2639]: enabled plugins: fwupd, os-release, packagekit-refine-repos, packagekit-refresh, appstream, hardcoded-blocklist, hardcoded-popular, modalias, packagekit, rewrite-resource, provenance, snap, systemd-updates, generic-updates, provenance-license, icons
+Sep  9 10:57:33 ayelen-jara-9232 snap-store[2639]: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+Sep  9 10:57:34 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=44 ttl=42 time=0.266 ms
+Sep  9 10:57:35 ayelen-jara-9232 kernel: [   81.660600] audit: type=1400 audit(1788962255.030:54): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/appstream.conf" pid=2639 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep  9 10:57:35 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=45 ttl=42 time=0.132 ms
+Sep  9 10:57:36 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=46 ttl=42 time=4.447 ms
+Sep  9 10:57:37 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=47 ttl=42 time=0.109 ms
+Sep  9 10:57:38 ayelen-jara-9232 systemd[1]: Starting Update APT News...
+Sep  9 10:57:38 ayelen-jara-9232 systemd[1]: Starting Update the local ESM caches...
+Sep  9 10:57:38 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=48 ttl=42 time=3.623 ms
+Sep  9 10:57:41 ayelen-jara-9232 kernel: [   87.634854] clocksource: Long readout interval, skipping watchdog check: cs_nsec: 2207056998 wd_nsec: 2207055097
+Sep  9 10:57:41 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=49 ttl=42 time=58.369 ms
+Sep  9 10:57:41 ayelen-jara-9232 systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep  9 10:57:41 ayelen-jara-9232 systemd[1]: systemd-localed.service: Succeeded.
+Sep  9 10:57:42 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=50 ttl=42 time=0.247 ms
+Sep  9 10:57:42 ayelen-jara-9232 systemd[1]: apt-news.service: Succeeded.
+Sep  9 10:57:42 ayelen-jara-9232 systemd[1]: Finished Update APT News.
+Sep  9 10:57:43 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=51 ttl=42 time=0.214 ms
+Sep  9 10:57:44 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=52 ttl=42 time=0.296 ms
+Sep  9 10:57:45 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=53 ttl=42 time=0.097 ms
+Sep  9 10:57:46 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=54 ttl=42 time=0.196 ms
+Sep  9 10:57:46 ayelen-jara-9232 systemd[1]: esm-cache.service: Succeeded.
+Sep  9 10:57:46 ayelen-jara-9232 systemd[1]: Finished Update the local ESM caches.
+Sep  9 10:57:47 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=55 ttl=42 time=0.229 ms
+Sep  9 10:57:48 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=56 ttl=42 time=0.113 ms
+Sep  9 10:57:49 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=57 ttl=42 time=0.109 ms
+Sep  9 10:57:50 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=58 ttl=42 time=0.101 ms
+Sep  9 10:57:50 ayelen-jara-9232 tracker-store[2664]: OK
+Sep  9 10:57:50 ayelen-jara-9232 systemd[1239]: tracker-store.service: Succeeded.
+Sep  9 10:57:51 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=59 ttl=42 time=0.102 ms
+Sep  9 10:57:52 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=60 ttl=42 time=0.117 ms
+Sep  9 10:57:53 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=61 ttl=42 time=0.119 ms
+Sep  9 10:57:54 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=62 ttl=42 time=0.114 ms
+Sep  9 10:57:55 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=63 ttl=42 time=0.121 ms
+Sep  9 10:57:56 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=64 ttl=42 time=0.255 ms
+Sep  9 10:57:57 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=65 ttl=42 time=0.117 ms
+Sep  9 10:57:58 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=66 ttl=42 time=0.128 ms
+Sep  9 10:57:59 ayelen-jara-9232 ping-ej4[1694]: 64 bytes from 127.0.0.1: seq=67 ttl=42 time=0.102 ms

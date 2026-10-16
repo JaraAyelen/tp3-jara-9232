@@ -1,0 +1,13 @@
+FECHA        | HORA       | PROCESO         | MENSAJE                                           
+----------------------------------------------------------------------------------------------------
+Sep 9        | 10:57:09   | vmware-user.desktop | Error: /usr/bin/vmtoolsd must be run inside a virt
+Sep 9        | 10:57:09   | pulseaudio      | GetManagedObjects() failed: org.freedesktop.DBus.E
+Sep 9        | 10:57:12   | vboxclient.desktop | VBoxClient: error: unrecognized option '--vmsvga-s
+Sep 9        | 10:57:12   | gnome-shell     | Error looking up permission: GDBus.Error:org.freed
+Sep 9        | 10:57:12   | gsd-media-keys  | Failed to grab accelerator for keybinding settings
+Sep 9        | 10:57:12   | gsd-media-keys  | Failed to grab accelerator for keybinding settings
+Sep 9        | 10:57:12   | gsd-media-keys  | Failed to grab accelerator for keybinding settings
+Sep 9        | 10:57:12   | gsd-media-keys  | Failed to grab accelerator for keybinding settings
+Sep 9        | 10:57:12   | gsd-color       | failed to get edid: unable to get EDID for output 
+Sep 9        | 10:57:13   | colord          | failed to get session [pid 2466]: No hay datos dis
+Sep 9        | 10:57:30   | org.gnome.Nautilus | Failed to register: Unable to acquire bus name 'or
