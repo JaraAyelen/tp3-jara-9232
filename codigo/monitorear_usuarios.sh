@@ -4,8 +4,8 @@
 LEGAJO="9232"
 TOKEN="92322079"
 
-# Ruta absoluta al directorio del TP
-DIR_BASE="/home/ayelenjara/tp3-jara-9232"
+# Detectar dinámicamente la ruta absoluta del repositorio
+DIR_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ARCHIVO_LOG="$DIR_BASE/logs/usuarios_activos_${LEGAJO}.log"
 
 # Asegurar que el directorio logs exista usando la ruta absoluta

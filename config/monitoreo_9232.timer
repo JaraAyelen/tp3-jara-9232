@@ -2,6 +2,7 @@
 Description=Timer para ejecutar diagnostico de red cada 5 minutos
 
 [Timer]
+OnBootSec=1m
 OnUnitActiveSec=5m
 
 [Install]

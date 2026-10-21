@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Definición de rutas absolutas
-DIR_BASE="/home/ayelenjara/tp3-jara-9232"
+# Definición dinámica de rutas para asegurar portabilidad
+DIR_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ARCHIVO_LOG="$DIR_BASE/logs/ping_report_9232.log"
 
 # Asegurar que el directorio logs exista
@@ -15,3 +15,7 @@ GATEWAY=$(ip route | grep default | awk '{print $3}')
 echo "[$FECHA_HORA] Iniciando diagnóstico de red al gateway: $GATEWAY" >> "$ARCHIVO_LOG"
 ping -c 4 "$GATEWAY" >> "$ARCHIVO_LOG"
 echo "---------------------------------------------------" >> "$ARCHIVO_LOG"
+
+
+
+

@@ -7,7 +7,9 @@ if [ "$#" -ne 1 ]; then
 fi
 
 URL="$1"
-DIR_BASE="/home/ayelenjara/tp3-jara-9232"
+
+# Detectar dinámicamente la ruta absoluta del repositorio
+DIR_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIR_DESCARGAS="$DIR_BASE/descargas"
 
 # Asegurar que la carpeta descargas exista
